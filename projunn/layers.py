@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 """
 File: layers.py
 Created Date: Wed Mar 09 2022
@@ -250,7 +249,7 @@ def henaff_init_(A):
     with torch.no_grad():
         A.copy_(torch.block_diag(*diag))
         return A
-=======
+
 """
 File: layers.py
 Created Date: Wed Mar 09 2022
